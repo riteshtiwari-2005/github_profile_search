@@ -19,8 +19,10 @@ submit.addEventListener("click",()=>{
            <img src="${data.avatar_url}" alt="Placeholder Image">
             <div class="card-body">
                 <h5 class="name" style="text-align: center;">${data.name}</h5>
-                <p class="follower" style="text-align: center;">${data.followers}</p>
-                <p class="followling" style="text-align: center;">${data.following}</p>
+                <p class="follower" style="text-align: center;">Follower: ${data.followers}</p>
+                <p class="followling" style="text-align: center;">Following: ${data.following}</p>
+                 <p class="fomt-1" style="text-align: center; ">${data.bio}</p>
+
             </div>
       `
 main.style.display="flex";

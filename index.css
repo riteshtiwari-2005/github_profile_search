@@ -101,3 +101,10 @@ img{
     top: 100px;
     gap: 50px;
 }
+.name{
+    font-weight: 700;
+    font-size: 20px;
+}
+.font-1{
+    font-size: 30px;
+}
