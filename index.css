@@ -74,11 +74,7 @@ h1{
 .font{
     font-size: 80px;
 }
-.card{
-  
-    /* right: 30px;
-    left: 30px; */
-}
+
 .card, .card-body{
     background-color: #FFFFFF;
   
